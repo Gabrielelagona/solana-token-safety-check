@@ -1,0 +1,23 @@
+{
+  "name": "solana-token-safety-check",
+  "version": "1.0.0",
+  "description": "Instant, key-free safety checks for any Solana token mint: mint/freeze authority and holder concentration via public RPC.",
+  "type": "module",
+  "scripts": {
+    "check": "tsx check.ts"
+  },
+  "keywords": [
+    "solana",
+    "token",
+    "rug-pull",
+    "safety",
+    "memecoin",
+    "spl-token"
+  ],
+  "author": "MemeAssist (https://memeassist.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
